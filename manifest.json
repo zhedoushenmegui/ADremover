@@ -1,0 +1,22 @@
+{
+  "name": "ADremover",
+  "version": "0.9.0",
+  "icons": { "128": "img/avd.png" },
+  "manifest_version": 2,
+  "description": "chrome浏览器去广告小工具",
+  "browser_action": {
+    "default_icon": "img/avd.png" ,
+    "default_title": "chr ad remover",
+    "default_popup": "index.html"
+  },
+  "content_scripts":[
+    {
+      "matches":["https://www.jb51.net/*"],
+      "js":["js/jquery.2.1.4.js","js/ad_remover/jb51.js"],
+      "runat":"document_end"
+    }
+  ],
+  "permissions":[
+    "https://www.jb51.net/*"
+  ]
+}
