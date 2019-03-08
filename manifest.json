@@ -14,9 +14,14 @@
       "matches":["https://www.jb51.net/*"],
       "js":["js/jquery.2.1.4.js","js/ad_remover/jb51.js"],
       "runat":"document_end"
+    },
+    {
+      "matches":["https://blog.csdn.net/*"],
+      "js":["js/jquery.2.1.4.js","js/ad_remover/csdn.js"],
+      "runat":"document_end"
     }
   ],
   "permissions":[
-    "https://www.jb51.net/*"
+    "https://www.jb51.net/*", "https://blog.csdn.net/*"
   ]
 }
