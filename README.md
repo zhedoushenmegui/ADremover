@@ -6,7 +6,7 @@
 # 功能
 - csdn 去广告
 - csdn 页面去侧边栏, 自动加载全文
-- csdn 
+- csdn 下方相关推荐里  标记出 download 页面(这些页面完全没有用) 
 - 51脚本之家 去广告
 ## 对比 cmp
 ![](https://github.com/zhedoushenmegui/ADremover/raw/master/cmp/jb51.06260.png)
