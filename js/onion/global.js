@@ -5,7 +5,7 @@
  * Time: 20:33
  */
 
-var url = location.href;
+let url = location.href;
 $(document).ready(function(){
     console.log('onion lab is running');
     setTimeout(function(){

@@ -14,6 +14,18 @@ function run() {
     $('div.w350.fr').remove();
     $('div.jb51ewm').remove();
     $('body div.topTools').remove();
+    // 2023-02
+    $("#topbar").remove();
+    $("#header > div.logom").remove();
+    $("#header > div.logor").remove();
+    $("#header").remove();
+    $('#container >div.pt10').remove();
+    $('#main >div.main-right').remove();
+    $('div.lbd_bot').remove();
+    $('.lbd').remove();
+    $('#main div.main-left').css("width", '100%');
+    $('.google-auto-placed').remove();
+    $("#content").css("background-color", '#dddddd');
 
     // adjust width
     $('div.wrap').css('width', '88%');
