@@ -5,8 +5,9 @@
  * Time: 20:33
  */
 
-let url = location.href;
 $(document).ready(function(){
+    let url = location.href;
+
     console.log('onion lab is running');
     setTimeout(function(){
         /// 本地 jupyter
